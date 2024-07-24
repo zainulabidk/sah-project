@@ -1,5 +1,5 @@
-import React from "react";
-import "./App.css";
+import React from 'react'
+import './App.css'
 function App() {
   return (
     <div>
@@ -7,13 +7,11 @@ function App() {
         A MINI PROJECT(zain)
       </h1>
 
-      <h1
-        style={{ textAlign: "center", backgroundColor: "blue", color: "white" }}
-      >
+      <h1 style={{ textAlign: "center", backgroundColor: "blue" }}>
         Sharon Sebastian
       </h1>
     </div>
   );
 }
 
-export default App;
+export default App
