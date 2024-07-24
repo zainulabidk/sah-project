@@ -6,7 +6,7 @@ function App() {
       <h1 style={{ textAlign: "center", backgroundColor: "yellow" }}>
         A MINI PROJECT(zain)
       </h1>
-      <div style={{display:'flex'}}>
+      <div>
         <h1
           style={{
             textAlign: "center",
@@ -16,7 +16,7 @@ function App() {
         >
           Sharon Sebastian
         </h1>
-        <img className="imgClass" src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"></img>
+        <img src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"></img>
       </div>
     </div>
   );

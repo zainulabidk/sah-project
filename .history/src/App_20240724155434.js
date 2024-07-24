@@ -6,7 +6,11 @@ function App() {
       <h1 style={{ textAlign: "center", backgroundColor: "yellow" }}>
         A MINI PROJECT(zain)
       </h1>
-      <div style={{display:'flex'}}>
+      <div function mapDispatchToProps(dispatch) {
+        return {
+        }
+      
+      }>
         <h1
           style={{
             textAlign: "center",
