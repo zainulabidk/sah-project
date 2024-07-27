@@ -24,7 +24,7 @@ const Navbar = ({ sidebar, setSideBar }) => {
             }}
             className="text-2xl font-semibold uppercase"
           >
-            <span className="text-primary"> coders </span> coffee
+            <span className="text-primary"> candle </span> cafe
           </motion.h1>
           {/* Harmberger Menu Section */}
           <motion.div

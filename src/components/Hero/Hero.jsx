@@ -185,12 +185,9 @@ const Hero = () => {
         {/* Side Bar Menu */}
         {sideBar && (
           <motion.div
-            // initial={{ x: `100%` }}
-            // whileInView={{ x: 0 }}
-
             initial={{
               opacity: 0,
-              y: 100,
+              y: -100,
             }}
             animate={{
               opacity: 1,
@@ -200,7 +197,7 @@ const Hero = () => {
               type: "spring",
               stiffness: 100,
               damping: 10,
-              delay: 0.1,
+              delay: 0.09,
             }}
             className="absolute top-0 right-0 w-[140px] h-full bg-gradient-to-b from-primary/80 to-primaryDark/80 backdrop-blur-sm z-10"
           >

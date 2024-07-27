@@ -1,11 +1,18 @@
 import React from "react";
 import Hero from "../src/components/Hero/Hero";
-
-const App = () => {
+import Services from "./components/services/service";
+import WheretoBuy from "./components/where to buy/wheretoBuy";
+import Appbanner from "../src/components/Appbaner/Appbaner";
+import Footer from "./components/footer/footer";
+ const App = () => {
   return (
     <div className="overflow-x-hidden">
       <Hero />
-      {/* <FetchUsers /> */}
+      <Services />
+      <WheretoBuy />
+      <Appbanner />
+      <Footer/>
+       
     </div>
   );
 };
